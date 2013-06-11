@@ -1,0 +1,17 @@
+Exercise 6.1
+
+The equivalent while statment of
+    
+    for (i = 0; i < max_length; i++) 
+        if (input_line[i] == '?') 
+            quest_count++;
+
+is
+
+    i = 0;
+    while (i < max_length) {
+        if (input_line[i] == '?')
+            quest_count++;
+        i++;
+    }
+
